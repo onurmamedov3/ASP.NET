@@ -1,0 +1,136 @@
+﻿@using MyAspProject.Models
+@model List<MyAspProject.Models.Computer>
+
+@{
+    ViewData["Title"] = "Computer Inventory";
+}
+<head>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="text-primary"><i class="fas fa-laptop"></i> Computer Inventory</h2>
+        <a asp-action="Create" class="btn btn-success btn-lg">
+            <i class="fas fa-plus"></i> Add New Computer
+        </a>
+    </div>
+
+    <!-- Search and View Toggle -->
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <div class="input-group">
+                <input type="text" id="searchInput" class="form-control" placeholder="Search computers..." />
+                <span class="input-group-text">
+                    <i class="fas fa-search"></i>
+                </span>
+            </div>
+        </div>
+        <div class="col-md-6 text-md-end">
+            <button class="btn btn-outline-primary" onclick="toggleView()">
+                <i class="fas fa-th-large"></i> Toggle View
+            </button>
+        </div>
+    </div>
+
+    <!-- Table View -->
+    <div id="tableView">
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Brand</th>
+                        <th>Description</th>
+                        <th class="text-center">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="computerTable">
+                    @foreach (var computer in Model)
+                    {
+                        <tr>
+                            <td>@computer.Id</td>
+                            <td>@computer.Brand</td>
+                            <td>@computer.Description</td>
+                            <td class="text-center">
+                                <a asp-action="Details" asp-route-id="@computer.Id" class="btn btn-info btn-sm">
+                                    <i class="fas fa-eye"></i> View
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@computer.Id" class="btn btn-danger btn-sm">
+                                    <i class="fas fa-trash"></i> Delete
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Card View -->
+    <div id="cardView" class="row" style="display: none;">
+        @foreach (var computer in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">@computer.Brand</h5>
+                        <p class="card-text">@computer.Description</p>
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="Details" asp-route-id="@computer.Id" class="btn btn-primary btn-sm">
+                                <i class="fas fa-info-circle"></i> Details
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@computer.Id" class="btn btn-danger btn-sm">
+                                <i class="fas fa-trash"></i> Delete
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- Pagination -->
+    <nav class="mt-4">
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled"><a class="page-link">Previous</a></li>
+            <li class="page-item active"><a class="page-link">1</a></li>
+            <li class="page-item"><a class="page-link">2</a></li>
+            <li class="page-item"><a class="page-link">3</a></li>
+            <li class="page-item"><a class="page-link">Next</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- JavaScript for Search and View Toggle -->
+<script>
+    function toggleView() {
+        var tableView = document.getElementById("tableView");
+        var cardView = document.getElementById("cardView");
+        if (tableView.style.display === "none") {
+            tableView.style.display = "block";
+            cardView.style.display = "none";
+        } else {
+            tableView.style.display = "none";
+            cardView.style.display = "flex";
+        }
+    }
+
+    document.getElementById("searchInput").addEventListener("keyup", function () {
+        var filter = this.value.toLowerCase();
+        var rows = document.querySelectorAll("#computerTable tr");
+        rows.forEach(row => {
+            var brand = row.cells[1].innerText.toLowerCase();
+            var desc = row.cells[2].innerText.toLowerCase();
+            row.style.display = brand.includes(filter) || desc.includes(filter) ? "" : "none";
+        });
+    });
+</script>
+
+<!-- Footer Section -->
+<footer class="bg-dark text-white py-4 mt-5">
+    <div class="container text-center">
+        <p class="mb-0">&copy; 2025 Computer Inventory System | All rights reserved.</p>
+    </div>
+</footer>

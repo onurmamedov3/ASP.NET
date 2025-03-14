@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\onurm\\source\\repos\\MyAspProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BDFB78E0-A8A4-4C98-9C46-CDCD06669BFA}|MyAspProject\\MyAspProject.csproj|c:\\users\\onurm\\source\\repos\\myaspproject\\myaspproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDFB78E0-A8A4-4C98-9C46-CDCD06669BFA}|MyAspProject\\MyAspProject.csproj|solutionrelative:myaspproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDFB78E0-A8A4-4C98-9C46-CDCD06669BFA}|MyAspProject\\MyAspProject.csproj|c:\\users\\onurm\\source\\repos\\myaspproject\\myaspproject\\views\\computer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDFB78E0-A8A4-4C98-9C46-CDCD06669BFA}|MyAspProject\\MyAspProject.csproj|solutionrelative:myaspproject\\views\\computer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDFB78E0-A8A4-4C98-9C46-CDCD06669BFA}|MyAspProject\\MyAspProject.csproj|c:\\users\\onurm\\source\\repos\\myaspproject\\myaspproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDFB78E0-A8A4-4C98-9C46-CDCD06669BFA}|MyAspProject\\MyAspProject.csproj|solutionrelative:myaspproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDFB78E0-A8A4-4C98-9C46-CDCD06669BFA}|MyAspProject\\MyAspProject.csproj|c:\\users\\onurm\\source\\repos\\myaspproject\\myaspproject\\controllers\\computercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDFB78E0-A8A4-4C98-9C46-CDCD06669BFA}|MyAspProject\\MyAspProject.csproj|solutionrelative:myaspproject\\controllers\\computercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDFB78E0-A8A4-4C98-9C46-CDCD06669BFA}|MyAspProject\\MyAspProject.csproj|c:\\users\\onurm\\source\\repos\\myaspproject\\myaspproject\\models\\computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDFB78E0-A8A4-4C98-9C46-CDCD06669BFA}|MyAspProject\\MyAspProject.csproj|solutionrelative:myaspproject\\models\\computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDFB78E0-A8A4-4C98-9C46-CDCD06669BFA}|MyAspProject\\MyAspProject.csproj|c:\\users\\onurm\\source\\repos\\myaspproject\\myaspproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDFB78E0-A8A4-4C98-9C46-CDCD06669BFA}|MyAspProject\\MyAspProject.csproj|solutionrelative:myaspproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDFB78E0-A8A4-4C98-9C46-CDCD06669BFA}|MyAspProject\\MyAspProject.csproj|c:\\users\\onurm\\source\\repos\\myaspproject\\myaspproject\\myaspproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{BDFB78E0-A8A4-4C98-9C46-CDCD06669BFA}|MyAspProject\\MyAspProject.csproj|solutionrelative:myaspproject\\myaspproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\onurm\\source\\repos\\MyAspProject\\MyAspProject\\Views\\Computer\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyAspProject\\Views\\Computer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\onurm\\source\\repos\\MyAspProject\\MyAspProject\\Views\\Computer\\Index.cshtml",
+              "RelativeToolTip": "MyAspProject\\Views\\Computer\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T19:39:50.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ComputerController.cs",
+              "DocumentMoniker": "C:\\Users\\onurm\\source\\repos\\MyAspProject\\MyAspProject\\Controllers\\ComputerController.cs",
+              "RelativeDocumentMoniker": "MyAspProject\\Controllers\\ComputerController.cs",
+              "ToolTip": "C:\\Users\\onurm\\source\\repos\\MyAspProject\\MyAspProject\\Controllers\\ComputerController.cs",
+              "RelativeToolTip": "MyAspProject\\Controllers\\ComputerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T19:19:04.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\onurm\\source\\repos\\MyAspProject\\MyAspProject\\Program.cs",
+              "RelativeDocumentMoniker": "MyAspProject\\Program.cs",
+              "ToolTip": "C:\\Users\\onurm\\source\\repos\\MyAspProject\\MyAspProject\\Program.cs",
+              "RelativeToolTip": "MyAspProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T19:09:06.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\onurm\\source\\repos\\MyAspProject\\MyAspProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyAspProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\onurm\\source\\repos\\MyAspProject\\MyAspProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MyAspProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T19:08:59.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Computer.cs",
+              "DocumentMoniker": "C:\\Users\\onurm\\source\\repos\\MyAspProject\\MyAspProject\\Models\\Computer.cs",
+              "RelativeDocumentMoniker": "MyAspProject\\Models\\Computer.cs",
+              "ToolTip": "C:\\Users\\onurm\\source\\repos\\MyAspProject\\MyAspProject\\Models\\Computer.cs",
+              "RelativeToolTip": "MyAspProject\\Models\\Computer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T19:08:41.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\onurm\\source\\repos\\MyAspProject\\MyAspProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyAspProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\onurm\\source\\repos\\MyAspProject\\MyAspProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyAspProject\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T19:07:53.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyAspProject",
+              "DocumentMoniker": "C:\\Users\\onurm\\source\\repos\\MyAspProject\\MyAspProject\\MyAspProject.csproj",
+              "RelativeDocumentMoniker": "MyAspProject\\MyAspProject.csproj",
+              "ToolTip": "C:\\Users\\onurm\\source\\repos\\MyAspProject\\MyAspProject\\MyAspProject.csproj",
+              "RelativeToolTip": "MyAspProject\\MyAspProject.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-14T19:09:04.304Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
