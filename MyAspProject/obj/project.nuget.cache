@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cnrGH8oVGX0=",
+  "dgSpecHash": "C1Tfb6R39Xs=",
   "success": true,
   "projectFilePath": "C:\\Users\\onurm\\source\\repos\\MyAspProject\\MyAspProject\\MyAspProject.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\onurm\\.nuget\\packages\\bootstrap\\5.0.0\\bootstrap.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

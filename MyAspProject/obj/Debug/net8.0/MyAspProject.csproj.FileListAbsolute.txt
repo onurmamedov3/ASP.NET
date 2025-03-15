@@ -31,3 +31,4 @@ C:\Users\onurm\source\repos\MyAspProject\MyAspProject\obj\Debug\net8.0\MyAspProj
 C:\Users\onurm\source\repos\MyAspProject\MyAspProject\obj\Debug\net8.0\ref\MyAspProject.dll
 C:\Users\onurm\source\repos\MyAspProject\MyAspProject\bin\Debug\net8.0\libman.json
 C:\Users\onurm\source\repos\MyAspProject\MyAspProject\bin\Debug\net8.0\MyAspProject.staticwebassets.runtime.json
+C:\Users\onurm\source\repos\MyAspProject\MyAspProject\obj\Debug\net8.0\MyAspProject.sourcelink.json

@@ -1,13 +1,18 @@
 ﻿@using MyAspProject.Models
 @model List<MyAspProject.Models.Computer>
 
+
+
 @{
     ViewData["Title"] = "Computer Inventory";
 }
 <head>
-    <link href="~/css/site.css" rel="stylesheet" />
-    <link href="~/lib/bootstrap/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-grid.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-reboot.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-utilities.css" asp-append-version="true" />
 </head>
+
 
 <div class="container mt-5">
     <div class="d-flex justify-content-between align-items-center mb-4">
